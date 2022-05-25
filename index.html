@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>WeBe</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background-image: url(bg.jpg);
+        }
+        h1{
+            color: aliceblue;
+            width: 150px;
+            height: 100%;
+            text-align: center;
+
+        }
+        
+         h1{
+            color: aliceblue;
+            border-color: rgb(226, 43, 156);
+            background-color: rgba(226, 43, 156, 0.671);
+            border: 3px solid rgb(226, 43, 156);;
+            border-radius: 50%;
+            width: 150px;
+            height: 100%;
+            text-align: center;
+
+        }
+
+        a {
+            color: rgb(4, 213, 250);
+        }
+        p{
+            border-color: rgb(226, 43, 156);
+            background-color: rgba(226, 43, 156, 0.671);
+            border: 1px solid rgb(226, 43, 156);;
+            border-radius: 50%;
+            color: aliceblue;
+            font-size: large;
+            width: 100%;
+            height: 150%;
+            text-align: center;
+            padding: 1%;
+        }
+        footer{
+            border-color: rgb(226, 43, 156);
+            background-color: rgba(226, 43, 156, 0.671);
+            border: 3px solid rgb(226, 43, 156);;
+            border-radius: 50%;
+            color: aliceblue;
+            font-size: large;
+            width: 100%;
+            height: 120%;
+        }
+        img{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<header>
+   
+
+</header>
+
+<body>
+<h1 align= "center">Задание 1</h1>
+
+<p> Добавили файлы на сервер через программу Filezills</p>
+    <img src="добавили файлы на сервер.png" alt="первый скриншот">
+<p> Соединились с хостом по стандартному порту 80 в протоколе RAW с помощью программыPutty</p>
+    <img src="1.png" alt="первый скриншот">
+
+<h2>Пункт 1 </h2>
+<p> Получить главную страницу методом GET в протоколе HTTP 1.0
+<br> Cервер отвечает по протоколу HTTP 1.1 по умолчанию</p>
+    <img src="1.png" alt="первый скриншот">
+
+<h2>тПункт 2</h2>
+<p>Получить внутреннюю страницу u47493.kubsu-dev.ru методом GET в протоколе HTTP 1.1 </p>
+    <img src="2.png" alt="второй скриншот">
+
+<h2>Пункт 3</h2>
+<p>Определить размер файла file.tar.gz, не скачивая его.
+<br> (Для этого использовали HEAD запрос. Информация содержится в строке "Content-Length") 
+    </p>
+<img src="3.png" alt="третий скриншот">
+
+<h2>Пункт 4</h2>
+<p> Определить медиатип ресурса /image.png
+<br> (Для этого использовали HEAD запрос. Информация содержится в строке "Content-Type") 
+
+    </p>
+<img src="4.png" alt="четвертый скриншот">
+
+<h2> Пункт 5</h2>
+<p> Отправить комментарий на сервер по адресу u47493.kubsu-dev.ru/index.php 
+  <br>(Для этого спользовали запрос POST, в котором указали сам комментарий. В ответе от сервера был получен отправленный комментарий)  </p>
+<img src="5.png" alt="пятый скриншот">
+
+<h2>Пункт 6</h2>
+<p> Получить первые 100 байт файла /file.tar.gz  
+<br> (Для их получения использовали5 GET запрос с заголовком Range В заголовке Range указано что нужно получить именно первые 100 байт из файла)  </p>
+<img src="6.png" alt="шестой скриншот">
+
+<h2>Пункт 7</h2>
+<p>Определить кодировку ресурса /index.php.  
+ <br> (Для этого отправили GET запрос с заголовком Accept-Charset, в котором была установлена кодировка utf-8) </p>
+<img src="7.png" alt="седьмой скриншот">
+
+
+<footer>
+        <h4 align="center">(c) Зайцева Антонина</h4>
+</footer>
+
+</body>
